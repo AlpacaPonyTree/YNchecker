@@ -1,6 +1,6 @@
 def YNchecker(q):
     a = input(q)
-    if a == "y":
+    if a == "y" or a == "yes":
         return True
-    elif a == "n":
+    else:
         return False
